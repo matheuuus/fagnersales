@@ -40,7 +40,8 @@ $('.contato:not(:has(a))').on('click', function(){
 $('.menuIcon').on('click', function(){
     $('.navbar ul').toggleClass('navOpen')
 })
-$('a').on('click', function(e){
+
+$('.navbar ul li a').on('click', function(e){
   e.preventDefault();
 
 
